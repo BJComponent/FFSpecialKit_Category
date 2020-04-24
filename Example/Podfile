@@ -1,9 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/BJComponent/BJSpecs.git'
+
 use_frameworks!
 
 platform :ios, '8.0'
 
 target 'FFSpecialKit_Category_Example' do
   pod 'FFSpecialKit_Category', :path => '../'
+  
+  pod 'FFAPIs'
 
   target 'FFSpecialKit_Category_Tests' do
     inherit! :search_paths
