@@ -9,7 +9,7 @@
 
 #import <CTMediator/CTMediator.h>
 
-#import <FFAPIs/FFAPIs-umbrella.h>
+#import <FFAPIs/FFApis.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
